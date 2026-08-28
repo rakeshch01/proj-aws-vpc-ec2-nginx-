@@ -1,0 +1,6 @@
+# Terraform downloads providers locally; do not commit them.
+.terraform/
+
+# Terraform state is environment-specific and can contain sensitive data.
+*.tfstate
+*.tfstate.*
